@@ -3,7 +3,8 @@
 set -e
 
 if [ $# -ne 1 ]; then
-    echo "Usage: $0 <limit in minutes>"
+    COMMAND=$(basename $0)
+    echo "Usage: $COMMAND <limit in minutes>"
     exit 1
 fi
 
