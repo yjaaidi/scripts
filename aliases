@@ -1,4 +1,5 @@
 DIR=$(cd "$(dirname "$0")"; pwd)
 
 alias autorevert="${DIR}/autorevert.sh"
+alias create-nx-angular="${DIR}/create-nx-angular.sh"
 alias limbo="${DIR}/limbo.sh"
